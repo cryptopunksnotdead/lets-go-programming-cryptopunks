@@ -9,6 +9,7 @@ A collection about awesome feeds (formats, readers, services & tools, templates 
 #### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
 
 
+
 [Formats](#formats) •
 [Parsers](#parsers) •
 [Filters](#filters) •
@@ -96,6 +97,16 @@ _Let's build the next thousands facebooks & co news feeds and readers. Join the 
 
 - [**Fuck Facebook**](https://daringfireball.net/2017/06/fuck_facebook) by John Gruber, June 2017 
 - [**Why I can't/won't point to Facebook blog posts**]() by Dave Winer, May 2017 
+
+
+
+## Open Web & Friends
+
+_What's the open web? Why care about the future of online news & publishing?_
+
+> Seriously guys, nobody gives a shit about the open web. Only your clique.
+>
+>  -- [Joe Hewitt](https://twitter.com/joehewitt/status/870363197580038144)
 
 
 
