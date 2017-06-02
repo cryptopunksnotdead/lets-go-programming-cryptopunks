@@ -16,6 +16,13 @@ _JSON, XML, HTML, & Friends_
 
 ### JSON Feed
 
+
+**More**
+
+- [**Code @ JSON Feed**](https://jsonfeed.org/code)
+- [**Awesome JSON Feed**](https://github.com/rmlewisuk/awesome-json-feed)
+
+
 ### Atom
 
 ### RSS
@@ -43,9 +50,17 @@ _Universal Feed Parser & Normalizers_
 
 
 
+## Converters
+
+- [**feed2json**](https://feed2json.org) (github: [appsattic/feed2json.org](https://github.com/appsattic/feed2json.org)) - convert rss or atom to json feed
+
+
 ## Readers
 
+**JavaScript**
 
+- [JSON Feed Viewer](https://json-feed-viewer.herokuapp.com) (github: [maximevaillancourt/json-feed-viewer](https://github.com/maximevaillancourt/json-feed-viewer)) - browse through the showcased feeds, or enter a feed url
+- [feeds React Sample](https://github.com/playhtml/feeds/tree/master/react)  - simple feeds news reader sample w/ React and JSON feed
 
 ## Facebook & Co
 
