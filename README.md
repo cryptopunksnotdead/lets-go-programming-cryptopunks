@@ -108,7 +108,7 @@ _What's the open web? Why care about the future of online news & publishing?_
 >
 >  -- [Joe Hewitt, June 2017](https://twitter.com/joehewitt/status/870363197580038144)
 
-- [**Introducing AltPlatform & our manifesto for the Open Web**](http://altplatform.org/2017/05/30/open-web-manifesto/) by Richard Macmanus, May 2017
+- [**Introducing AltPlatform & our manifesto for the Open Web**](http://altplatform.org/2017/05/30/open-web-manifesto/) by Richard MacManus, May 2017
 
 
 ## Meta
