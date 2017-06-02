@@ -96,7 +96,7 @@ _Universal Feed Parser & Normalizer_
 _Let's build the next thousands facebooks & co news feeds and readers. Join the free & open web and read & share your posts & updates with feeds._
 
 - [**Fuck Facebook**](https://daringfireball.net/2017/06/fuck_facebook) by John Gruber, June 2017 
-- [**Why I can't/won't point to Facebook blog posts**]() by Dave Winer, May 2017 
+- [**Why I can't/won't point to Facebook blog posts**](http://scripting.com/2017/05/31.html#a110526) by Dave Winer, May 2017 
 
 
 
