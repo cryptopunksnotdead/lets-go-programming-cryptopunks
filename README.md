@@ -9,6 +9,14 @@ A collection of awesome feeds (formats, readers, services &amp; tools, templates
 #### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
 
 
+[Formats](#formats) •
+[Parsers](#parsers) •
+[Filters](#filters) •
+[Converters](#converters) •
+[Readers](#readers) •
+[Facebook & Co](#facebook--co)
+
+
 
 ## Formats
 
@@ -18,7 +26,7 @@ _JSON, XML, HTML, & Friends_
 ### JSON Feed
 
 - [**jsonfeed.org**](https://jsonfeed.org) (twitter: [jsonfeed](https://twitter.com/jsonfeed)) - JSON Feed Project Site
-  - [**Spec V1 @ JSON Feed**](https://jsonfeed.org/version/1) - Official Specifiaton Version 1.0 - in plain english - yeah!
+  - [**Spec V1 @ JSON Feed**](https://jsonfeed.org/version/1) - Official Specifiaton Version 1.0 - in plain english (yeah!); May 2017
   - [**Code @ JSON Feed**](https://jsonfeed.org/code) - JSON Feed Templates, Plugins, Parser, Scripts & More
 
 
@@ -29,11 +37,22 @@ _JSON, XML, HTML, & Friends_
 
 ### Atom
 
+_Atom Synddication & Friends_
+
+- [**Atom Syndication Spec**](https://tools.ietf.org/html/rfc4287), December 2005
+
+
 ### RSS
+
+_Really Simple Syndication & Friends_
+
+- [**RSS 2.0 Spec**](http://cyber.harvard.edu/rss/rss.html),  July 2003
+  
 
 ### HTML Microformats
 
-
+- [**h-feed Living Spec**](http://microformats.org/wiki/h-feed)
+- [**h-entry Living Spec**](http://microformats.org/wiki/h-entry)  
 
 
 ## Parsers
