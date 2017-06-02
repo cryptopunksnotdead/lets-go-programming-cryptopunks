@@ -1,9 +1,10 @@
 
+JSON Feed • RSS • Atom • HTML w/ Microformats
 
 
 # Awesome Feeds
 
-A collection of awesome feeds (formats, readers, services &amp; tools, templates 'n' mores) - JSON Feed, RSS, Atom, HTML w/ Microformats
+A collection of awesome feeds (formats, readers, services &amp; tools, templates 'n' mores).
 
 #### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
 
