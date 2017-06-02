@@ -62,7 +62,7 @@ _Really Simple Syndication & Friends_
 
 ## Parsers
 
-_Universal Feed Parser & Normalizers_
+_Universal Feed Parser & Normalizer_
 
 **Ruby**
 
@@ -102,6 +102,8 @@ _Let's build the next thousands facebooks & co news feeds and readers. Join the 
 ## Meta
 
 **License**
+
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
 The awesome list is dedicated to the public domain. Use it as you please with no restrictions whatsoever.
 
