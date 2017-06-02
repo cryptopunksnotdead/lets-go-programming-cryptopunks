@@ -22,6 +22,10 @@ A collection of awesome feeds (formats, readers, services &amp; tools, templates
 
 _JSON, XML, HTML, & Friends_
 
+[JSON Feed](#json-feed) •
+[Atom](#atom) •
+[RSS](#rss) •
+[HTML Microformats](#html-microformats)
 
 ### JSON Feed
 
@@ -37,7 +41,7 @@ _JSON, XML, HTML, & Friends_
 
 ### Atom
 
-_Atom Synddication & Friends_
+_Atom Syndication & Friends_
 
 - [**Atom Syndication Spec**](https://tools.ietf.org/html/rfc4287), December 2005
 
@@ -53,6 +57,7 @@ _Really Simple Syndication & Friends_
 
 - [**h-feed Living Spec**](http://microformats.org/wiki/h-feed)
 - [**h-entry Living Spec**](http://microformats.org/wiki/h-entry)  
+
 
 
 ## Parsers
@@ -87,7 +92,7 @@ _Universal Feed Parser & Normalizers_
 
 ## Facebook & Co
 
-_Let's build the next thousands of facebooks & co news feeds and readers. Join the free & open web and read & share your posts & updates with feeds._
+_Let's build the next thousands facebooks & co news feeds and readers. Join the free & open web and read & share your posts & updates with feeds._
 
 - [**Fuck Facebook**](https://daringfireball.net/2017/06/fuck_facebook) by John Gruber, June 2017 
 - [**Why I can't/won't point to Facebook blog posts**]() by Dave Winer, May 2017 
