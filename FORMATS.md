@@ -2,7 +2,7 @@
 # Awesome Feeds > Formats
 
 
-(†) used for historic formats (no longer in use or obsolete)
+(†) used for historic formats (no longer in use or obsolete or were just experimental)
 
 
 ## RSS "Family"
@@ -47,7 +47,7 @@ See Feed.TXT
 
 
 
-## YAML Feed
+## YAML Feed (†)
 
 
 
