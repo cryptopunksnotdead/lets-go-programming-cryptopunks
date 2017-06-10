@@ -1,5 +1,5 @@
 
-JSON Feed • RSS • Atom • HTML w/ Microformats
+JSON Feed • RSS • Atom • HTML w/ Microformats • Feed.TXT 
 
 
 # Awesome Feeds
@@ -21,7 +21,7 @@ A collection of awesome feeds (formats, readers, services & tools, templates 'n'
 
 ## Formats
 
-_JSON, XML, HTML, TXT & Friends_
+_JSON, XML, HTML, YAML, TXT & Friends_
 
 [JSON Feed](#json-feed) •
 [Atom](#atom) •
