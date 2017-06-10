@@ -21,12 +21,14 @@ A collection of awesome feeds (formats, readers, services & tools, templates 'n'
 
 ## Formats
 
-_JSON, XML, HTML, & Friends_
+_JSON, XML, HTML, TXT & Friends_
 
 [JSON Feed](#json-feed) •
 [Atom](#atom) •
 [RSS](#rss) •
-[HTML Microformats](#html-microformats)
+[HTML Microformats](#html-microformats) •
+[Feed.TXT](#feedtxt)
+
 
 ### JSON Feed
 
@@ -60,6 +62,11 @@ _Really Simple Syndication & Friends_
 - [**h-entry Living Spec**](http://microformats.org/wiki/h-entry)  
 
 
+### Feed.TXT
+
+- [**Feed.TXT**](https://feedtxt.github.io) (github: [feedtxt](https://github.com/feedtxt)) - Feed.TXT Project Site
+
+
 
 ## Parsers
 
@@ -67,7 +74,7 @@ _Universal Feed Parser & Normalizer_
 
 **Ruby**
 
-- [**feedparser**](https://github.com/feedparser/feedparser) (gem: [feedparser](https://rubygems.org/gems/feedparser)) - universal feed parser and normalizer (supports Atom, RSS, JSON, etc.)
+- [**feedparser**](https://github.com/feedparser/feedparser) (gem: [feedparser](https://rubygems.org/gems/feedparser)) - universal feed parser and normalizer (supports Atom, RSS, JSON, HTML, TXT etc.)
 
 
 
