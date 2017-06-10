@@ -72,18 +72,31 @@ _Scheme_
 
 ## Link
 
-- **link**     - RSS 2.0, Atom
-- **url**      - JSON Feed
+- **url**      -- JSON Feed
+- **link**     -- RSS 2.0
+- **link rel="alternate"**   -- Atom 
 
 
 _More Links_
 
 - **home_page_url**   -- JSON Feed
 - **feed_url**        -- JSON Feed
-
+- **link rel="self"**    -- Atom (feed url)
 ## ID
 
 - **id**      -- Atom, JSON Feed
 - **guid**    -- RSS 2.0
 - **permalink**
 
+
+## Attachments
+
+- **attachments**    -- JSON Feed
+- **enclosure**      -- RSS 2.0
+- **link rel="?"**   -- Atom
+
+
+## More
+
+- add banner image ?
+- add feed (channel) image / icon?
