@@ -51,8 +51,22 @@ See Feed.TXT
 
 
 
-## JSON Feed
+## JSON Formats
 
+### JSON Feed
+
+### Collection+JSON
+
+See [Collection+JSON - Hypermedia Type](http://amundsen.com/media-types/collection/)
+
+Collection+JSON is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections. It is similar to the The Atom Syndication Format (RFC4287) and the The Atom Publishing Protocol (RFC5023) . However, Collection+JSON defines both the format and the semantics in a single media type. It also includes support for Query Templates and expanded write support through the use of a Write Template.
+
+
+### Activity Streams
+
+See [`activitystrea.ms`](http://activitystrea.ms)
+
+- [Activity_Streams_(format) @ Wikipedia](https://en.wikipedia.org/wiki/Activity_Streams_(format))
 
 
 ## YAML Feed (†)
