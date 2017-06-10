@@ -84,3 +84,12 @@ See [`activitystrea.ms`](http://activitystrea.ms)
 
 ## Feed.TXT
 
+See [Feed.TXT](https://feedtxt.github.io).
+
+A Free Feeds Format in Plain Text w/ Structured Meta Data
+
+
+
+
+## More
+
