@@ -94,11 +94,11 @@ _More Links_
 
 ## Attachments
 
-- **attachments**    -- JSON Feed
-- **enclosure**      -- RSS 2.0
-- **link rel="?"**   -- Atom
+- **attachments**            -- JSON Feed
+- **enclosure**              -- RSS 2.0
+- **link rel="enclosure"**   -- Atom
 
-add more examples here - why? why not?
+_Examples_
 
 ``` json
 "attachments": [
@@ -109,6 +109,25 @@ add more examples here - why? why not?
                     "duration_in_seconds": 6629
                 }
             ]
+```
+
+``` xml
+<enclosure url="http://www.example.org/myaudiofile.mp3"
+                 length="12345"
+                 type="audio/mpeg" />
+```
+
+``` xml
+   <link rel="enclosure"
+          type="audio/mpeg"
+          title="MP3"
+          href="http://www.example.org/myaudiofile.mp3"
+          length="1234" />
+    <link rel="enclosure"
+          type="application/x-bittorrent"
+          title="BitTorrent"
+          href="http://www.example.org/myaudiofile.torrent"
+          length="1234" />
 ```
 
 
