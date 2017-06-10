@@ -55,7 +55,7 @@ _2nd Level Title_
 ## Content
 
 - **content**          -- Atom (Defaults to Text!), RSS Yahoo! Search (Media) Extension 
-- **content type="text|html|xhtml|"**   -- Atom (Defaults to Text!)
+- **content type="text|html|xhtml"**   -- Atom (Defaults to Text!)
 - **content_text**     -- JSON Feed
 - **content_html**     -- JSON Feed
 - **content:encoded**  -- RDF Content Module
@@ -105,6 +105,8 @@ _More Links_
 
 _Examples_
 
+JSON Feed:
+
 ``` json
 "attachments": [
                 {
@@ -116,11 +118,15 @@ _Examples_
             ]
 ```
 
+RSS 2.0:
+
 ``` xml
 <enclosure url="http://www.example.org/myaudiofile.mp3"
                  length="12345"
                  type="audio/mpeg" />
 ```
+
+Atom:
 
 ``` xml
    <link rel="enclosure"
