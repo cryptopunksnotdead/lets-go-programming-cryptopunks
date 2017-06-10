@@ -31,6 +31,7 @@ Let's count ;-)
 - **date_modified**     -- JSON Feed
 - **lastBuildDate**     -- RSS 2.0 Channel
 
+
 ## Title
 
 - **title**             -- Atom / RSS 2.0 / JSON Feed
@@ -41,6 +42,7 @@ _2nd Level Title_
 
 - **subtitle**          -- Atom  
 - **tagline**
+
 
 ## Summary
 
@@ -77,14 +79,17 @@ _Scheme_
 
 - **url**      -- JSON Feed
 - **link**     -- RSS 2.0
-- **link rel="alternate"**   -- Atom 
+- **link href=**   -- Atom 
 
 
 _More Links_
 
-- **home_page_url**   -- JSON Feed
-- **feed_url**        -- JSON Feed
-- **link rel="self"**    -- Atom (feed url)
+- **home_page_url**   -- JSON Feed (site url)
+- **feed_url**        -- JSON Feed (feed url)
+- **link href= rel="self"**        -- Atom (feed url)
+- **link href= rel="alternate"**   -- Atom (site url)
+
+
 ## ID
 
 - **id**      -- Atom, JSON Feed
@@ -94,9 +99,9 @@ _More Links_
 
 ## Attachments
 
-- **attachments**            -- JSON Feed
-- **enclosure**              -- RSS 2.0
-- **link rel="enclosure"**   -- Atom
+- **attachments[] url=**            -- JSON Feed
+- **enclosure url=**              -- RSS 2.0
+- **link href= rel="enclosure"**   -- Atom
 
 _Examples_
 
