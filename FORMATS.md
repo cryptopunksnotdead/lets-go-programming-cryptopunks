@@ -2,7 +2,7 @@
 # Awesome Feeds > Formats
 
 
-(†) used for historic formats (no longer in use or obsolete or were just experimental)
+Note: (†) used for historic formats (no longer in use or obsolete or were just experimental)
 
 
 ## RSS "Family"
@@ -57,7 +57,7 @@ See Feed.TXT
 
 ## YAML Feed (†)
 
-- [YAMLFeed @ Indie Web](https://indieweb.org/YAMLFeed) (twitter: [yamlfeed](https://twitter.com/yamlfeed)) - Launched as a "pracital" lulz joke - keep the formats wars (eg. rss vs atom) alive (e.g. now json vs yaml).
+- [YAMLFeed @ Indie Web](https://indieweb.org/YAMLFeed) (twitter: [yamlfeed](https://twitter.com/yamlfeed)) - Launched as a "practical" lulz joke - keep the formats wars (eg. rss vs atom) alive (e.g. now json vs yaml).
 
 
 ## Microformats
