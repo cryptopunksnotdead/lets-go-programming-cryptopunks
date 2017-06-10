@@ -52,15 +52,18 @@ _2nd Level Title_
 
 ## Content
 
-- **content**          -- Atom, RDF Content Module, RSS Yahoo! Search (Media) Extension 
+- **content**          -- Atom (Defaults to Text!), RSS Yahoo! Search (Media) Extension 
+- **content type="text|html|xhtml|"**   -- Atom (Defaults to Text!)
 - **content_text**     -- JSON Feed
 - **content_html**     -- JSON Feed
+- **content:encoded**  -- RDF Content Module
 
 
 
 ## Tags / Categories
 
-- **category**   -- Atom, RSS 2.0
+- **category**   -- RSS 2.0
+- **category term=**  -- Atom
 - **tags[]**     -- JSON Feed
 - **keywords**
 
@@ -95,8 +98,21 @@ _More Links_
 - **enclosure**      -- RSS 2.0
 - **link rel="?"**   -- Atom
 
+add more examples here - why? why not?
+
+``` json
+"attachments": [
+                {
+                    "url": "http://therecord.co/downloads/The-Record-sp1e1-ChrisParrish.m4a",
+                    "mime_type": "audio/x-m4a",
+                    "size_in_bytes": 89970236,
+                    "duration_in_seconds": 6629
+                }
+            ]
+```
+
 
 ## More
 
-- add banner image ?
-- add feed (channel) image / icon?
+- add banner image for item / entry?
+- add image / icon for feed / channel?
