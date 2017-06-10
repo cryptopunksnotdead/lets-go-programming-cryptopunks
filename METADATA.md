@@ -36,7 +36,6 @@ Let's count ;-)
 - **title**             -- Atom / RSS 2.0 / JSON Feed
 - **name**
 
-<!-- break -->
 
 _2nd Level Title_
 
@@ -69,4 +68,22 @@ _Scheme_
 
 - **scheme**     -- Atom
 - **domain**     -- RSS 2.0
+
+
+## Link
+
+- **link**     - RSS 2.0, Atom
+- **url**      - JSON Feed
+
+
+_More Links_
+
+- **home_page_url**   -- JSON Feed
+- **feed_url**        -- JSON Feed
+
+## ID
+
+- **id**      -- Atom, JSON Feed
+- **guid**    -- RSS 2.0
+- **permalink**
 
