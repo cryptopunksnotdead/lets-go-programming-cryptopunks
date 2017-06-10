@@ -41,7 +41,7 @@ Plain Text with key value pairs and multi-line values with indentation.
 
 
 
-### RSS 5.0   (Really Simple, Stupid)
+### RSS 5.0   (Really Simple, Stupid or Really Simple Sharing)
 
 See Feed.TXT
 
