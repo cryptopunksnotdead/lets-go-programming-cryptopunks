@@ -46,14 +46,22 @@ Plain Text with key value pairs and multi-line values with indentation.
 See Feed.TXT
 
 
+### More RSS
+
+- [RSS @ Wikipedia](https://en.wikipedia.org/wiki/RSS)
+
 
 ## Atom
+
+- [Atom (standard) @ Wikipedia](https://en.wikipedia.org/wiki/Atom_(standard))
 
 
 
 ## JSON Formats
 
 ### JSON Feed
+
+See [`jsonfeed.org`](https://jsonfeed.org).
 
 ### Collection+JSON
 
@@ -66,7 +74,7 @@ Collection+JSON is a JSON-based read/write hypermedia-type designed to support m
 
 See [`activitystrea.ms`](http://activitystrea.ms)
 
-- [Activity_Streams_(format) @ Wikipedia](https://en.wikipedia.org/wiki/Activity_Streams_(format))
+- [Activity_Streams (format) @ Wikipedia](https://en.wikipedia.org/wiki/Activity_Streams_(format))
 
 
 ## YAML Feed (†)
