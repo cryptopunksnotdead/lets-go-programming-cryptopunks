@@ -142,7 +142,11 @@ Atom:
 ```
 
 
-## More
+## More - What's Missing?
 
 - add banner image for item / entry?
-- add image / icon for feed / channel?
+- add image / cover for feed / channel?
+- add (fav)icon for feed / channel?
+- add language ?
+- add expired yes/no or with date?
+
