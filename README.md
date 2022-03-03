@@ -82,7 +82,7 @@ Add inside `func main()`:
 ``` go
 punk := punks.Tile( 0 )
 fmt.Println( punk.Bounds() )
-//=>
+//=> (0,0)-(24,24)
 
 punk.Save( "./morepunk0.png" )
 
