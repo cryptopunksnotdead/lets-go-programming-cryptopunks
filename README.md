@@ -1,6 +1,6 @@
 
 
-# Let's Go! Programming Pixel Punk Profile Pictures & (Generative) Art with Go - Step-by-Step Book / Guide
+# Let's Go! Programming (Crypto) Pixel Punk Profile Pictures & (Generative) Art with Go - Step-by-Step Book / Guide
 
 _Inside Unique 24×24 Pixel Art on the Blockchain..._
 
