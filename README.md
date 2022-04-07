@@ -27,17 +27,10 @@ See ![](i/morepunks-strip.png) [`morepunks.png` »](https://github.com/cryptopun
 
 
 
-
 Let's create a program to mint (more) punk pixel art images.
 Let's (re)use
 the pixelart package
 from the [artbase "right-clicker" zero-config web service / server](https://github.com/pixelartexchange/artbase.server).
-To go get the package use:
-
-```
-$ go get github.com/pixelartexchange/artbase.server/pixelart
-```
-
 
 
 
@@ -50,7 +43,6 @@ package main
 
 import (
   "fmt"
-  "image"
   "github.com/pixelartexchange/artbase.server/pixelart"
 )
 
@@ -60,8 +52,8 @@ func main() {
   fmt.Printf( "Hello, Pixel Art v%s!\n", pixelart.Version )
 
   path     := "./morepunks.png"
-  tileSize := image.Point{24, 24}
-  punks := pixelart.ReadImageComposite( path, &tileSize )
+  tileSize := pixelart.Point{24, 24}
+  punks    := pixelart.ReadImageComposite( path, &tileSize )
 
   fmt.Println( punks.Bounds() )
   //=> (0,0)-(600,960)
@@ -120,12 +112,20 @@ And voila in 4x!
 
 Proof-of the pudding.
 If you want to run the ready-made sample
-program in `01_tile/` yourself try:
+program in [**`01_tile/`**}](01_tile) yourself try:
+
+- Generate a go module (`go.mod`)
+- Add the pixelart package via go get to `go.mod`
+- Run (or build) the code
 
 ```
 $ cd 01_tile
+$ go mod init example.com/01_title
+$ go get github.com/pixelartexchange/artbase.server/pixelart
 $ go run main.go
 ```
+
+
 
 
 

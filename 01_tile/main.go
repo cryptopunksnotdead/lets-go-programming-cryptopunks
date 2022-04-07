@@ -3,18 +3,16 @@ package main
 
 import (
   "fmt"
-  "image"
   "github.com/pixelartexchange/artbase.server/pixelart"
 )
 
 
 func main() {
-
   fmt.Printf( "Hello, Pixel Art v%s!\n", pixelart.Version )
 
   path     := "../morepunks.png"
-  tileSize := image.Point{24, 24}
-  punks := pixelart.ReadImageComposite( path, &tileSize )
+  tileSize := pixelart.Point{24, 24}
+  punks    := pixelart.ReadImageComposite( path, &tileSize )
 
   fmt.Println( punks.Bounds() )
   //=> (0,0)-(600,960)

@@ -21,6 +21,11 @@
 go.work
 
 
+########
+# ignore go.mod and go.sum
+go.mod
+go.sum
+
 #####
 # ignore images
 morepunks.png
