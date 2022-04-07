@@ -31,4 +31,9 @@ go.sum
 morepunks.png
 01_tile/*.png
 
+###################
+#  ignore o (output) dirs
+o
+
+
 

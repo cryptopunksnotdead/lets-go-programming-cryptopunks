@@ -1,4 +1,4 @@
-# 01_tile
+# 02_generate
 
 
 To run:
@@ -9,8 +9,8 @@ To run:
 
 
 ```
-$ cd 01_tile
-$ go mod init example.com/01_title
+$ cd 02_generate
+$ go mod init example.com/02_generate
 $ go get github.com/pixelartexchange/artbase.server/pixelart
 $ go run main.go
 ```
@@ -19,5 +19,4 @@ $ go run main.go
 ## Questions? Comments?
 
 Yes, you can. Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
-
 
