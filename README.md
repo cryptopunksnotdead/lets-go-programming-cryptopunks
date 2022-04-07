@@ -493,7 +493,7 @@ Alien ![](basic/alien.png)
 
 
 
-Let's wipe up a `generate_punk`
+Let's wipe up a `generatePunk`
 function that
 pastes / composes together
 the building blocks / attributes and returns
