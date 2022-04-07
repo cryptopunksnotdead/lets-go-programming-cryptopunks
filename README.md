@@ -521,12 +521,10 @@ package main
 
 import (
   "fmt"
-	"os"
-	"log"
-	"strings"
-	"regexp"
+  "strings"
+  "regexp"
 
-	"github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/pixelartexchange/artbase.server/pixelart"
 )
 
 // allow (ignore):
@@ -537,8 +535,8 @@ var normalizeRegexp = regexp.MustCompile( "[ _-]" )
 
 func normalize( str string ) string {
     str = strings.ToLower( str )
-		str = normalizeRegexp.ReplaceAllString( str, "" )
-		return str
+    str = normalizeRegexp.ReplaceAllString( str, "" )
+    return str
 }
 
 
@@ -551,35 +549,30 @@ func generatePunk( values ...string ) *pixelart.Image {
 
   punkType = normalize( punkType )
 
+  path   :=  dir + "/" + punkType + ".png"
+  punk := pixelart.ReadImage( path )
 
-	fmt.Printf( "type: %v\n", punkType )
-	fmt.Printf( "  attributes: %v\n", attributeNames )
-
-	// dir: "./basic"
-	path   :=  dir + "/" + punkType + ".png"
-	punk := pixelart.ReadImage( path )
-
-	var m_or_f string
-	if strings.Index( punkType, "female" ) != -1 {
-		m_or_f = "f"
-	} else {
-		m_or_f = "m"
-	}
+  var m_or_f string
+  if strings.Index( punkType, "female" ) != -1 {
+    m_or_f = "f"
+  } else {
+    m_or_f = "m"
+  }
 
 
-	for _, attributeName := range attributeNames {
-		if attributeName == "" {   // skip empty attributes
-			continue
-		}
+  for _, attributeName := range attributeNames {
+    if attributeName == "" {   // skip empty attributes
+      continue
+    }
 
-		attributeName = normalize( attributeName )
-		path       = dir + "/" + m_or_f + "/" + attributeName + ".png"
-		attribute   := pixelart.ReadImage( path )
+    attributeName = normalize( attributeName )
+    path       = dir + "/" + m_or_f + "/" + attributeName + ".png"
+    attribute   := pixelart.ReadImage( path )
 
     punk.Paste( attribute )
-	}
+  }
 
-	return punk
+  return punk
 }
 ```
 
@@ -590,16 +583,16 @@ Let's test drive punk #0 and punk 1
 func main() {
   fmt.Printf( "Hello, Pixel Art v%s!\n", pixelart.Version )
 
-	// test drive
-	// generate punk #0
-	punk := generatePunk( "Female 2", "Earring", "Blonde Bob", "Green Eye Shadow" )
-	punk.Save( "punk0.png" )
-	punk.Zoom(20).Save( "punk0@20x.png" )
+  // test drive
+  // generate punk #0
+  punk := generatePunk( "Female 2", "Earring", "Blonde Bob", "Green Eye Shadow" )
+  punk.Save( "punk0.png" )
+  punk.Zoom(20).Save( "punk0@20x.png" )
 
-	// generate punk #1
-	punk = generatePunk( "Male 1", "Smile", "Mohawk" )
-	punk.Save( "punk1.png" )
-	punk.Zoom(20).Save( "punk1@20x.png" )
+  // generate punk #1
+  punk = generatePunk( "Male 1", "Smile", "Mohawk" )
+  punk.Save( "punk1.png" )
+  punk.Zoom(20).Save( "punk1@20x.png" )
 }
 ```
 
@@ -659,7 +652,7 @@ Let's try:
 
 ``` go
 recs := readCSV( "../punks.csv" )
-fmt.Printf( "%d punk(s)", len( recs ) )
+fmt.Printf( "%d punk(s)\n", len( recs ) )
 //=> 10 000 punk(s)
 ```
 
@@ -671,7 +664,7 @@ and generate a 24×24 version and a 20x zoom, that is,
 
 ``` go
 for i,rec := range recs {
-		fmt.Printf( "==> %d - %v\n", i, rec )
+    fmt.Printf( "==> %d - %v\n", i, rec )
     punk = generatePunk( rec... )
 
     name := fmt.Sprintf("punk%d", i )
@@ -830,13 +823,13 @@ Let's generate an all-in-one composite image holding the complete
 collection of 10 000 punks in a 100×100 grid.
 
 ``` go
-punks = pixelart.NewImageComposite( 100, 100,
+punks := pixelart.NewImageComposite( 100, 100,
                                     &pixelart.Point{24, 24})
 
 for i,rec := range recs {
-		fmt.Printf( "==> %d - %v\n", i, rec )
+    fmt.Printf( "==> %d - %v\n", i, rec )
     punk = generatePunk( rec... )
-		punks.Add( punk )
+    punks.Add( punk )
 }
 
 punks.Save( "./o/punks.png" )

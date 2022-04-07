@@ -70,7 +70,7 @@ func generatePunk( values ...string ) *pixelart.Image {
 	punk := pixelart.ReadImage( path )
 
 	var m_or_f string
-	if strings.Index( punk_type, "female" ) != -1 {
+	if strings.Index( punkType, "female" ) != -1 {
 		m_or_f = "f"
 	} else {
 		m_or_f = "m"
@@ -100,50 +100,24 @@ func main() {
 	// test drive
 	// generate punk #0
 	punk := generatePunk( "Female 2", "Earring", "Blonde Bob", "Green Eye Shadow" )
-	punk.Save( "punk0.png" )
-	punk.Zoom(20).Save( "punk0@20x.png" )
+	punk.Save( "./punk0.png" )
+	punk.Zoom(20).Save( "./punk0@20x.png" )
 
 	// generate punk #1
 	punk = generatePunk( "Male 1", "Smile", "Mohawk" )
-	punk.Save( "punk1.png" )
-	punk.Zoom(20).Save( "punk1@20x.png" )
-
-	punk = generatePunk( "Male 1" )
-	punk.Zoom(4).Save( "punk2@4x.png" )
-
-	punk = generatePunk( "Female 3", "", "" )
-	punk.Zoom(4).Save( "punk3@4x.png" )
-
-
-	punk = generatePunk( "Alien", "Headband" )
-	punk.Mirror().Zoom(4).Save( "phunk@4x.png" )
-
-
-	punks := pixelart.NewImageComposite( 3, 2, &pixelart.Point{24, 24} )   // try 10x10 grid
-
-	fmt.Println( punks.Bounds() )
-
-	punks.Add( punk )
-	punks.Add( punk.Mirror() )
-
-	punk = generatePunk( "Male 1" )
-	punks.Add( punk )
-	punks.Add( punk.Mirror() )
-
-
-  punks.Save( "punks3x2.png" )
-	punks.Zoom(4).Save( "punks3x2@4x.png" )
+	punk.Save( "./punk1.png" )
+	punk.Zoom(20).Save( "./punk1@20x.png" )
 
 
 	/////////////////////
 	// try all 10 000 punks
   recs := readCSV( "../punks.csv" )
-	fmt.Printf( "%d punk(s)", len( recs ) )
+	fmt.Printf( "%d punk(s)\n", len( recs ) )
 	//=> 10 000 punk(s)
 
 
 	punk = generatePunk( recs[666]... )
-	punk.Zoom( 4 ).Save( "punk666@4x.png" )
+	punk.Zoom( 4 ).Save( "./punk666@4x.png" )
 
 
 	for i,rec := range recs {
@@ -157,7 +131,7 @@ func main() {
  }
 
 
-	punks = pixelart.NewImageComposite( 100, 100, &pixelart.Point{24, 24} )   // try 10x10 grid
+	punks := pixelart.NewImageComposite( 100, 100, &pixelart.Point{24, 24} )   // try 10x10 grid
 
 
 	for i,rec := range recs {

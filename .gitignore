@@ -30,10 +30,12 @@ go.sum
 # ignore images
 morepunks.png
 01_tile/*.png
+02_generate/*.png
 
 ###################
-#  ignore o (output) dirs
+#  ignore o (output)
 o
+
 
 
 
