@@ -1,0 +1,136 @@
+path, name, gender
+alien.png,   Alien,
+ape.png,     Ape,
+female1.png, Female 1,
+female2.png, Female 2,
+female3.png, Female 3,
+female4.png, Female 4,
+male1.png,   Male 1,
+male2.png,   Male 2,
+male3.png,   Male 3,
+male4.png,   Male 4,
+zombie.png,  Zombie,
+
+f/3dglasses.png,       3D Glasses, f
+f/bandana.png,         Bandana, f
+f/bigshades.png,       Big Shades, f
+f/blacklipstick.png,   Black Lipstick, f
+f/blondebob.png,       Blonde Bob, f
+f/blondeshort.png,     Blonde Short, f
+f/blueeyeshadow.png,   Blue Eye Shadow, f
+f/cap.png,             Cap, f
+f/choker.png,          Choker, f
+f/cigarette.png,       Cigarette, f
+f/classicshades.png,   Classic Shades, f
+f/clowneyesblue.png,   Clown Eyes Blue, f
+f/clowneyesgreen.png,  Clown Eyes Green, f
+f/clownhairgreen.png,  Clown Hair Green, f
+f/clownnose.png,       Clown Nose, f
+f/crazyhair.png,       Crazy Hair, f
+f/darkhair.png,        Dark Hair, f
+f/earring.png,         Earring, f
+f/eyemask.png,         Eye Mask, f
+f/eyepatch.png,        Eye Patch, f
+f/frumpyhair.png,      Frumpy Hair, f
+f/goldchain.png,       Gold Chain, f
+f/greeneyeshadow.png,  Green Eye Shadow, f
+f/halfshaved.png,      Half Shaved, f
+f/headband.png,        Headband,   f
+f/hornedrimglasses.png, Horned Rim Glasses, f
+f/hotlipstick.png,      Hot Lipstick, f
+f/knittedcap.png,       Knitted Cap, f
+f/medicalmask.png,      Medical Mask, f
+f/messyhair.png,        Messy Hair, f
+f/mohawk.png,           Mohawk, f
+f/mohawkdark.png,       Mohawk Dark, f
+f/mohawkthin.png,       Mohawk Thin, f
+f/mole.png,             Mole, f
+f/nerdglasses.png,      Nerd Glasses, f
+f/orangeside.png,       Orange Side, f
+f/pigtails.png,         Pigtails, f
+f/pilothelmet.png,      Pilot Helmet, f
+f/pinkwithhat.png,      Pink With Hat, f
+f/pipe.png,             Pipe, f
+f/purpleeyeshadow.png,  Purple Eye Shadow, f
+f/purplelipstick.png,   Purple Lipstick, f
+f/redmohawk.png,        Red Mohawk, f
+f/regularshades.png,    Regular Shades, f
+f/rosycheeks.png,       Rosy Cheeks, f
+f/silverchain.png,      Silver Chain, f
+f/spots.png,            Spots, f
+f/straighthair.png,     Straight Hair, f
+f/straighthairblonde.png,  Straight Hair Blonde, f
+f/straighthairdark.png,    Straight Hair Dark, f
+f/stringyhair.png,      Stringy Hair, f
+f/tasslehat.png,        Tassle Hat, f
+f/tiara.png,            Tiara, f
+f/vape.png,             Vape, f
+f/vr.png,               VR, f
+f/weldinggoggles.png,   Welding Goggles, f
+f/wildblonde.png,       Wild Blonde, f
+f/wildhair.png,         Wild Hair, f
+f/wildwhitehair.png,    Wild White Hair, f
+
+m/3dglasses.png,    3D Glasses, m
+m/bandana.png,      Bandana, m
+m/beanie.png,       Beanie, m
+m/bigbeard.png,     Big Beard, m
+m/bigshades.png,    Big Shades, m
+m/buckteeth.png,    Buck Teeth, m
+m/cap.png,          Cap, m
+m/capforward.png,   Cap Forward, m
+m/chinstrap.png,    Chinstrap, m
+m/cigarette.png,    Cigarette, m
+m/classicshades.png, Classic Shades, m
+m/clowneyesblue.png, Clown Eyes Blue, m
+m/clowneyesgreen.png, Clown Eyes Green, m
+m/clownhairgreen.png, Clown Hair Green, m
+m/clownnose.png,      Clown Nose, m
+m/cowboyhat.png,      Cowboy Hat, m
+m/crazyhair.png,      Crazy Hair, m
+m/dorag.png,          Do-rag, m
+m/earring.png,        Earring, m
+m/eyemask.png,        Eye Mask, m
+m/eyepatch.png,       Eye Patch, m
+m/fedora.png,         Fedora, m
+m/frontbeard.png,     Front Beard, m
+m/frontbearddark.png,  Front Beard Dark, m
+m/frown.png,           Frown, m
+m/frumpyhair.png,      Frumpy Hair, m
+m/goat.png,            Goat, m
+m/goldchain.png,       Gold Chain, m
+m/handlebars.png,      Handlebars, m
+m/headband.png,        Headband, m
+m/hoodie.png,          Hoodie, m
+m/hornedrimglasses.png,  Horned Rim Glasses, m
+m/knittedcap.png,      Knitted Cap, m
+m/luxuriousbeard.png,  Luxurious Beard, m
+m/medicalmask.png,     Medical Mask, m
+m/messyhair.png,       Messy Hair, m
+m/mohawk.png,          Mohawk, m
+m/mohawkdark.png,      Mohawk Dark, m
+m/mohawkthin.png,      Mohawk Thin, m
+m/mole.png,            Mole, m
+m/mustache.png,        Mustache, m
+m/muttonchops.png,     Muttonchops, m
+m/nerdglasses.png,     Nerd Glasses, m
+m/normalbeard.png,     Normal Beard, m
+m/normalbeardblack.png,  Normal Beard Black, m
+m/peakspike.png,       Peak Spike, m
+m/pipe.png,            Pipe, m
+m/policecap.png,       Police Cap, m
+m/purplehair.png,      Purple Hair, m
+m/regularshades.png,   Regular Shades, m
+m/rosycheeks.png,      Rosy Cheeks, m
+m/shadowbeard.png,     Shadow Beard, m
+m/shavedhead.png,      Shaved Head, m
+m/silverchain.png,     Silver Chain, m
+m/smallshades.png,      Small Shades, m
+m/smile.png,            Smile, m
+m/spots.png,            Spots, m
+m/stringyhair.png,      Stringy Hair, m
+m/tophat.png,           Top Hat, m
+m/vampirehair.png,      Vampire Hair, m
+m/vape.png,             Vape, m
+m/vr.png,               VR, m
+m/wildhair.png,         Wild Hair, m
