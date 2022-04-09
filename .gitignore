@@ -31,7 +31,8 @@ go.sum
 morepunks.png
 01_tile/*.png
 02_generate/*.png
-A_generate/*.png
+A1_generate/*.png
+A2_generate/*.png
 
 ###################
 #  ignore o (output)

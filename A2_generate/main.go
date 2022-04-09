@@ -1,12 +1,8 @@
-# punkverse Package
-
-Generate (Pixel) Punk Images Using Built-In Archetypes and Attributes
-
-
-Example:
+//////
+//  alternate basic generate punk example
+//     use the punkverse package with builtin archetypes and attributes
 
 
-``` go
 package main
 
 
@@ -57,11 +53,3 @@ func main() {
   crazyhairF.Save( "./crazyhair_(f).png" )
   crazyhairF.Zoom( 10 ).Save( "./crazyhair_(f)@10x.png" )
 }
-```
-
-
-
-
-## Questions? Comments?
-
-Yes, you can. Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
