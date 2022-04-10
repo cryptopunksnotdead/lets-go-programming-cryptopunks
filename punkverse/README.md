@@ -1,6 +1,6 @@
 # punkverse Package
 
-Generate (Pixel) Punk Images Using Built-In Archetypes and Attributes
+Let's You Generate (Pixel) Punk Images From Text Using Built-In Archetype and Attribute Images
 
 
 Example:
@@ -56,6 +56,53 @@ func main() {
   crazyhairF := punkverse.Find( "Crazy Hair", punkverse.F )
   crazyhairF.Save( "./crazyhair_(f).png" )
   crazyhairF.Zoom( 10 ).Save( "./crazyhair_(f)@10x.png" )
+}
+```
+
+
+Or an example with more archetypes and attributes added:
+
+``` go
+package main
+
+
+import (
+  "fmt"
+  "github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/cryptopunksnotdead/lets-go-programming-cryptopunks/punkverse"
+)
+
+
+var dir = "../more"
+
+
+func main() {
+  fmt.Printf( "Hello, Pixel Art v%s!\n", pixelart.Version )
+
+  ////
+  // add more archetypes and attributes to built-in pixmap
+  punkverse.Pixmap[ "demon" ]           = pixelart.ReadImage( dir + "/demon.png" )
+  punkverse.Pixmap[ "birthdayhat_(m)" ] = pixelart.ReadImage( dir + "/m/birthdayhat.png" )
+  punkverse.Pixmap[ "heartshades_(m)" ] = pixelart.ReadImage( dir + "/m/heartshades.png" )
+  punkverse.Pixmap[ "lasereyes_(m)" ]   = pixelart.ReadImage( dir + "/m/lasereyes.png" )
+  punkverse.Pixmap[ "birthdayhat_(f)" ] = pixelart.ReadImage( dir + "/f/birthdayhat.png" )
+  punkverse.Pixmap[ "heartshades_(f)" ] = pixelart.ReadImage( dir + "/f/heartshades.png" )
+  punkverse.Pixmap[ "lasereyes_(f)" ]   = pixelart.ReadImage( dir + "/f/lasereyes.png" )
+
+
+  /////
+  // try out new archetypes and attributes
+  punk := punkverse.Generate( "Demon", "Smile", "Heart Shades" )
+  punk.Save( "./demon.png" )
+  punk.Zoom( 10 ).Save( "./demon@10x.png" )
+
+  punk = punkverse.Generate( "Male 1", "Smile", "Birthday Hat", "Laser Eyes" )
+  punk.Save( "./punk2.png" )
+  punk.Zoom( 10 ).Save( "./punk2@10x.png" )
+
+  punk = punkverse.Generate( "Female 2", "Birthday Hat", "Heart Shades" )
+  punk.Save( "./punk3.png" )
+  punk.Zoom( 10 ).Save( "./punk3@10x.png" )
 }
 ```
 
