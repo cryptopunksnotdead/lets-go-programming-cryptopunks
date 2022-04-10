@@ -4,7 +4,7 @@ import (
 		"github.com/pixelartexchange/artbase.server/pixelart"
 )
 
-var pixmap = map[string]*pixelart.Image{
+var Pixmap = map[string]*pixelart.Image{
   "alien": makeImage24x24( pixAlien ),
   "ape": makeImage24x24( pixApe ),
   "female1": makeImage24x24( pixFemale1 ),

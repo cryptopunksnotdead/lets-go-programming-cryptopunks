@@ -87,7 +87,7 @@ import (
 		"github.com/pixelartexchange/artbase.server/pixelart"
 )` )
   buf2.WriteString( "\n\n" )
-  buf2.WriteString( "var pixmap = map[string]*pixelart.Image{\n" )
+  buf2.WriteString( "var Pixmap = map[string]*pixelart.Image{\n" )
 
 	// export pixels
 	for i,rec := range recs {

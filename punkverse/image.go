@@ -64,7 +64,7 @@ func Find( q string, opts... string  ) *pixelart.Image {
 		 }
 	 }
 
-	 if pix, ok := pixmap[ key ]; ok {
+	 if pix, ok := Pixmap[ key ]; ok {
       return pix
 	 } else {
       // panic - attribute not found !!
