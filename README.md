@@ -122,7 +122,7 @@ program in [**`01_tile/`**](01_tile) yourself try:
 
 ```
 $ cd 01_tile
-$ go mod init example.com/01_title
+$ go mod init example.com/01_tile
 $ go get github.com/pixelartexchange/artbase.server/pixelart
 $ go run main.go
 ```
@@ -216,11 +216,14 @@ And voila!
 
 
 
-## Gophers
+
+## Are Gophers, The New Punks?
 
 Let's retry with [**Egon Elbre's gophers collection**](https://github.com/egonelbre/gophers)
 in the 32x32 pixel format.
-See the all-in-one composite with 35 gophers in a 7x5 grid.
+See the all-in-one composite image with 35 gophers in a 7x5 grid -
+[`gophers.png`](gophers.png)
+
 ![](gophers.png)  (~14kb)
 
 
@@ -309,7 +312,7 @@ program in [**`01_tile_(gophers)/`**](01_tile_(gophers)) yourself try:
 
 ```
 $ cd 01_tile_(gophers)
-$ go mod init example.com/01_title
+$ go mod init example.com/01_tile
 $ go get github.com/pixelartexchange/artbase.server/pixelart
 $ go run main.go
 ```
