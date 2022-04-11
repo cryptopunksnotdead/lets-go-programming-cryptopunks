@@ -30,6 +30,7 @@ go.sum
 # ignore images
 morepunks.png
 01_tile/*.png
+01_tile_(gophers)/*.png
 02_generate/*.png
 A1_generate/*.png
 A2_generate/*.png

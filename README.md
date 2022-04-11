@@ -214,6 +214,148 @@ And voila!
 ![](i/morepunk88_silhouette(ukraine)@4x.png)
 
 
+
+
+## Gophers
+
+Let's retry with [**Egon Elbre's gophers collection**](https://github.com/egonelbre/gophers)
+in the 32x32 pixel format.
+See the all-in-one composite with 35 gophers in a 7x5 grid.
+![](gophers.png)  (~14kb)
+
+
+
+Let's create a program to mint gopher pixel art images.
+
+### Step 1 -  Read gopher composite image
+
+
+``` go
+package main
+
+
+import (
+  "fmt"
+  "github.com/pixelartexchange/artbase.server/pixelart"
+)
+
+
+func main() {
+
+  fmt.Printf( "Hello, Pixel Art v%s!\n", pixelart.Version )
+
+  path     := "./gophers.png"
+  tileSize := pixelart.Point{32, 32}
+  punks    := pixelart.ReadImageComposite( path, &tileSize )
+
+  fmt.Println( gophers.Bounds() )
+  //=> (0,0)-(224,160)
+}
+```
+
+
+### Step 2 - Start minting
+
+Let's mint gopher #0 (neutral), #1 (pirate), #16 (heart eyes), and #28 (mind blown).
+Add inside `func main()`:
+
+
+``` go
+gopher := gophers.Tile( 0 )
+fmt.Println( gopher.Bounds() )
+//=> (0,0)-(32,32)
+
+gopher.Save( "./gopher0.png" )
+
+gophers.Tile( 1 ).Save( "./gopher1.png" )
+gophers.Tile( 16 ).Save( "./gopher16.png" )
+gophers.Tile( 28 ).Save( "./gopher28.png" )
+
+```
+
+And voila!
+
+![](i/gopher0.png)
+![](i/gopher1.png)
+![](i/gopher16.png)
+![](i/gopher28.png)
+
+
+Let's change the zoom factor:
+
+``` go
+gophers.Tile( 0 ).Zoom( 4 ).Save( "./gopher0@4x.png" )
+gophers.Tile( 1 ).Zoom( 4 ).Save( "./gopher1@4x.png" )
+gophers.Tile( 16 ).Zoom( 4 ).Save( "./gopher16@4x.png" )
+gophers.Tile( 28 ).Zoom( 4 ).Save( "./gopher28@4x.png" )
+```
+
+And voila in 4x!
+
+![](i/gopher0@4x.png)
+![](i/gopher1@4x.png)
+![](i/gopher16@4x.png)
+![](i/gopher28@4x.png)
+
+
+
+Proof-of the pudding.
+If you want to run the ready-made sample
+program in [**`01_tile_(gophers)/`**](01_tile_(gophers)) yourself try:
+
+- Generate a go module (`go.mod`)
+- Add the pixelart package via go get to `go.mod`
+- Run the code
+
+```
+$ cd 01_tile_(gophers)
+$ go mod init example.com/01_title
+$ go get github.com/pixelartexchange/artbase.server/pixelart
+$ go run main.go
+```
+
+
+Let's try with the classic gray-ish
+background in red/green/blue (rgb) as a hexstring `#638596`:
+
+
+``` go
+gophers.Tile( 0 ).Background( "#638596" ).Zoom( 4 ).Save( "./gopher0_(grayish)@4x.png" )
+gophers.Tile( 1 ).Background( "#638596" ).Zoom( 4 ).Save( "./gopher1_(grayish)@4x.png" )
+gophers.Tile( 16 ).Background( "#638596" ).Zoom( 4 ).Save( "./gopher16_(grayish)@4x.png" )
+gophers.Tile( 28 ).Background( "#638596" ).Zoom( 4 ).Save( "./gopher28_(grayish)@4x.png" )
+```
+
+And voila!
+
+![](i/gopher0_(grayish)@4x.png)
+![](i/gopher1_(grayish)@4x.png)
+![](i/gopher16_(grayish)@4x.png)
+![](i/gopher28_(grayish)@4x.png)
+
+
+### Bonus - Glory to Ukraine! Fuck (Vladimir) Putin! Stop the War! - Send A Stop The War Message To The World With Your Profile Picture
+
+
+Let's try the ukraine flag in the background (with the built-in `Ukraine` helper method):
+
+
+``` go
+gophers.Tile( 0 ).Ukraine().Zoom( 4 ).Save( "./gopher0_flag(ukraine)@4x.png" )
+gophers.Tile( 1 ).Ukraine().Zoom( 4 ).Save( "./gopher1_flag(ukraine)@4x.png" )
+gophers.Tile( 16 ).Ukraine().Zoom( 4 ).Save( "./gopher16_flag(ukraine)@4x.png" )
+gophers.Tile( 28 ).Ukraine().Zoom( 4 ).Save( "./gopher28_flag(ukraine)@4x.png" )
+```
+
+And voila!
+
+![](i/gopher0_flag(ukraine)@4x.png)
+![](i/gopher1_flag(ukraine)@4x.png)
+![](i/gopher16_flag(ukraine)@4x.png)
+![](i/gopher28_flag(ukraine)@4x.png)
+
+
+
 # 2
 
 ## 10 000 Punks - The Free Do-It-Yourself (DIY) White Label Quick Starter Edition
