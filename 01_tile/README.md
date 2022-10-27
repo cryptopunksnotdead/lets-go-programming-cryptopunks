@@ -11,7 +11,7 @@ To run:
 ```
 $ cd 01_tile
 $ go mod init example.com/01_title
-$ go get github.com/pixelartexchange/artbase.server/pixelart
+$ go get github.com/learnpixelart/pixelart.go/pixelart
 $ go run main.go
 ```
 

@@ -84,7 +84,7 @@ func main() {
 	buf2.WriteString( `package punkverse
 
 import (
-		"github.com/pixelartexchange/artbase.server/pixelart"
+		"github.com/learnpixelart/pixelart.go/pixelart"
 )` )
   buf2.WriteString( "\n\n" )
   buf2.WriteString( "var Pixmap = map[string]*pixelart.Image{\n" )
