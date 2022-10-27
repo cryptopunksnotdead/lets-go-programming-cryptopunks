@@ -68,7 +68,7 @@ package main
 
 import (
   "fmt"
-  "github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/learnpixelart/pixelart.go/pixelart"
   "github.com/cryptopunksnotdead/lets-go-programming-cryptopunks/punkverse"
 )
 
@@ -108,7 +108,8 @@ func main() {
 
 
 
-
 ## Questions? Comments?
 
-Yes, you can. Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
+Yes, you can. Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+

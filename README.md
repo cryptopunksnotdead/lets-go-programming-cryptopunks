@@ -32,7 +32,7 @@ See ![](i/morepunks-strip.png) [`morepunks.png` »](https://github.com/cryptopun
 Let's create a program to mint (more) punk pixel art images.
 Let's (re)use
 the pixelart package
-from the [artbase "right-clicker" zero-config web service / server](https://github.com/pixelartexchange/artbase.server).
+from the [learn pixel art org](https://github.com/learnpixelart/pixelart.go).
 
 
 
@@ -45,7 +45,7 @@ package main
 
 import (
   "fmt"
-  "github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/learnpixelart/pixelart.go/pixelart"
 )
 
 
@@ -123,7 +123,7 @@ program in [**`01_tile/`**](01_tile) yourself try:
 ```
 $ cd 01_tile
 $ go mod init example.com/01_tile
-$ go get github.com/pixelartexchange/artbase.server/pixelart
+$ go get github.com/learnpixelart/pixelart.go/pixelart
 $ go run main.go
 ```
 
@@ -239,7 +239,7 @@ package main
 
 import (
   "fmt"
-  "github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/learnpixelart/pixelart.go/pixelart"
 )
 
 
@@ -313,7 +313,7 @@ program in [**`01_tile_(gophers)/`**](01_tile_(gophers)) yourself try:
 ```
 $ cd 01_tile_(gophers)
 $ go mod init example.com/01_tile
-$ go get github.com/pixelartexchange/artbase.server/pixelart
+$ go get github.com/learnpixelart/pixelart.go/pixelart
 $ go run main.go
 ```
 
@@ -669,7 +669,7 @@ import (
   "strings"
   "regexp"
 
-  "github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/learnpixelart/pixelart.go/pixelart"
 )
 
 // allow (ignore):

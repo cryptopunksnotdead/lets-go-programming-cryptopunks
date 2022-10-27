@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  "github.com/pixelartexchange/artbase.server/pixelart"
+  "github.com/learnpixelart/pixelart.go/pixelart"
 )
 
 
